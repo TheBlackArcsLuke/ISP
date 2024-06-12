@@ -1,0 +1,68 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Commercial sales of milk and cream","32100114","003-0012","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210011401",1;2;3;4;7,"CURRENT - a cube available to the public and that is current","Monthly","1977-01-01","2024-02-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Commodity",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","t",,
+"1","Nova Scotia","[12]","4","1","t",,
+"1","New Brunswick","[13]","5","1","t",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","t",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Other provinces","","12","1","",1;2;3;4,
+"1","Canada","[11124]","1","","",1;2;3;4,
+"2","Standard milk","","1","","",,
+"2","Milk 2%","","2","","",,
+"2","Skim milk","","3","","",,
+"2","Buttermilk","","4","","",,
+"2","Chocolate and other flavoured milk","","5","","",5,
+"2","Cereal cream","","6","","",,
+"2","Table cream","","7","","",,
+"2","Whipping cream","","8","","",,
+"2","Sour cream","","9","","",6,
+"2","Milk 1%","","10","","",,
+"2","Eggnog","","11","","",,
+"2","Light cream","","12","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3430","Monthly Dairy Factory Production and Stocks Survey"
+
+"Subject Code","Subject Name"
+"32","Agriculture and food"
+
+"Note ID",Note
+1,"As of April 1997, "other provinces" include: Prince Edward Island, Nova Scotia, New Brunswick and Saskatchewan for standard milk, milk 2%, milk 1%, skim milk, cereal cream, and whipping cream."
+2,"As of April 1997, "other provinces" include: Prince Edward Island, Nova Scotia, New Brunswick, Manitoba and Saskatchewan for buttermilk, chocolate drink and sour cream."
+3,"As of April 1997, "other provinces" include: Prince Edward Island, Nova Scotia, New Brunswick, Manitoba, Saskatchewan, Alberta and British Columbia for table cream."
+4,"As of January 2018, Canada and other provinces include Newfoundland and Labrador for all products. "
+5,"Prior to January 2016, "Chocolate and other flavoured milk" was known as "Chocolate drink"."
+6,"On October 4, 2017, the data for "Sour cream" have been corrected from January 2017 to July 2017."
+7,"Data in this table had higher rates of estimation for the January 2017 to December 2017 reference months, as changes in reporting arrangements resulted in higher non-response rates for this period. Data for Nova Scotia, Manitoba, Saskatchewan, Alberta, and British Columbia were impacted. For more information on estimation and imputation, refer to the Source (Surveys and Statistical programs) for this table."
+
+"Correction ID","Correction Date","Correction Note"
+"998","2017-10-04","<p>On October 4, 2017, the data for "Sour cream" have been corrected from January 2017 to July 2017.<br></p>",
+

@@ -1,0 +1,58 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Milk production and utilization","32100113","003-0011","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210011301",1,"CURRENT - a cube available to the public and that is current","Monthly","1946-01-01","2024-02-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Dairy distribution",2,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","New Brunswick","[13]","5","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Canada","[11124]","1","","",,
+"2","Farm home consumed","","2","1","t",2,
+"2","Fed to livestock","","3","1","t",2,
+"2","Fluid purposes","","5","4","",,
+"2","Industrial purposes","","6","4","",,
+"2","Delivered as cream","","7","4","t",3,
+"2","Milk production, total","","1","","t",2,
+"2","Milk sold off farms, total","","4","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3432","Milk Sold Off Farms and Cash Receipts from the Sale of Milk"
+
+"Subject Code","Subject Name"
+"32","Agriculture and food"
+
+"Note ID",Note
+1,"For explanation of changes in methodology contact Dairy/Food Unit, Agriculture Division, Statistics Canada."
+2,"Data for total milk production, farm home consumed and fed to livestock not available after 1978."
+3,""Delivered as cream" is farm separated cream expressed in terms of milk equivalent (3.6 kilograms per hectolitre of butterfat)."
+
+"Correction ID","Correction Date","Correction Note"
+"1274","2020-09-29","On September 29, 2020, estimates for category “Milk sold off farms, total" in July 2020 were corrected for Newfoundland and Labrador.",
+

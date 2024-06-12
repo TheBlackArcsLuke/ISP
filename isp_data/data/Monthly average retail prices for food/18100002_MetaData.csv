@@ -1,0 +1,103 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Monthly average retail prices for food and other selected products","18100002","326-0012","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000201",1;2;3;5,"CURRENT - a cube available to the public and that is current","Monthly","1995-01-01","2022-02-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Products",4,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Homogenized milk, 4 litres","","61","","",,
+"2","Partly skimmed milk, 4 litres","","62","","",,
+"2","Round steak, 1 kilogram","","1","","",,
+"2","Sirloin steak, 1 kilogram","","2","","",,
+"2","Prime rib roast, 1 kilogram","","3","","",,
+"2","Blade roast, 1 kilogram","","4","","",,
+"2","Stewing beef, 1 kilogram","","5","","",,
+"2","Ground beef, 1 kilogram","","6","","",,
+"2","Pork chops, 1 kilogram","","7","","",,
+"2","Butt roast, 1 kilogram","","8","","t",,
+"2","Chicken, 1 kilogram","","9","","",,
+"2","Bacon, 500 grams","","10","","",,
+"2","Wieners, 450 grams","","11","","",,
+"2","Canned salmon, 213 grams","","12","","",,
+"2","Homogenized milk, 1 litre","","13","","t",,
+"2","Partly skimmed milk, 1 litre","","14","","t",,
+"2","Butter, 454 grams","","15","","",,
+"2","Processed cheese slices, 250 grams","","16","","",,
+"2","Evaporated milk, 385 millilitres","","17","","",,
+"2","Eggs, 1 dozen","","18","","",,
+"2","Bread, 675 grams","","19","","",,
+"2","Soda crackers, 450 grams","","20","","",,
+"2","Macaroni, 500 grams","","21","","",,
+"2","Flour, 2.5 kilograms","","22","","",,
+"2","Corn flakes, 675 grams","","23","","",,
+"2","Apples, 1 kilogram","","24","","",,
+"2","Bananas, 1 kilogram","","25","","",,
+"2","Grapefruits, 1 kilogram","","26","","t",,
+"2","Oranges, 1 kilogram","","27","","",,
+"2","Apple juice, 1.36 litres","","28","","",,
+"2","Orange juice, 1 litre","","29","","",,
+"2","Cabbage, 1 kilogram","","30","","t",,
+"2","Carrots, 1 kilogram","","31","","",,
+"2","Celery, 1 kilogram","","32","","t",,
+"2","Mushrooms, 1 kilogram","","33","","",,
+"2","Onions, 1 kilogram","","34","","",,
+"2","Potatoes, 4.54 kilograms","","35","","",,
+"2","French fried potatoes, frozen, 1 kilogram","","36","","",,
+"2","Baked beans, canned, 398 millilitres","","37","","",,
+"2","Tomatoes, canned, 796 millilitres","","38","","",,
+"2","Tomato juice, 1.36 litres","","39","","",,
+"2","Ketchup, 1 litre","","40","","",,
+"2","Sugar, white, 2 kilograms","","41","","",,
+"2","Coffee, roasted, 300 grams","","42","","",,
+"2","Coffee, instant, 200 grams","","43","","",,
+"2","Tea (72 bags)","","44","","",,
+"2","Cooking or salad oil, 1 litre","","45","","",,
+"2","Soup, canned, 284 millilitres","","46","","",,
+"2","Baby food, 128 millilitres","","47","","",,
+"2","Peanut butter, 500 grams","","48","","",,
+"2","Fruit flavoured crystals, 2.25 litres","","49","","t",,
+"2","Soft drinks, cola type, 2 litres","","50","","t",,
+"2","Soft drinks, lemon-lime type, 2 litres","","51","","t",,
+"2","Laundry detergent, 4 litres","","52","","t",,
+"2","Paper towels (2 rolls)","","53","","",,
+"2","Facial tissue (200 tissues)","","54","","",,
+"2","Bathroom tissue (4 rolls)","","55","","",,
+"2","Shampoo, 300 millilitres","","56","","",,
+"2","Deodorant, 60 grams","","57","","",,
+"2","Toothpaste, 100 millilitres","","58","","",,
+"2","Cigarettes (200)","","59","","",,
+"2","Regular, unleaded gasoline at self-service stations, cents per litre","","60","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2301","Consumer Price Index"
+
+"Subject Code","Subject Name"
+"18","Prices and price indexes"
+
+"Note ID",Note
+1,"Prices for these items are collected as part of the regular monthly Consumer Price Index (CPI) survey. Prices for the selected food, household supply and personal care items are observed in food supermarkets and drug stores, while prices for cigarettes are collected in supermarkets, department stores, drug stores and tobacco shops. Prices for regular unleaded self-serve gasoline are collected by administrative data. In each geographic area defined for pricing purposes, the average prices of each product are weighted by the population of the area in question to calculate the average Canadian retail price of each product. For regular unleaded self-serve gasoline, average city prices are weighted by provincial volume supplied and cities' population to calculate the Canada average retail price. Products that are priced can vary in quality between outlets or between geographic areas. Brands and outlets can also vary from month to month. Therefore, average prices may not necessarily be fully comparable from one month to another and should not be used as an appropriate measure of pure price change through time. A matched product and outlet sample is used for the CPI to determine the pure price movement of products through time."
+2,"For concepts and definitions, see publication Your Guide to the Consumer Price Index, catalogue no. 62-557-X, or publication The Canadian Consumer Price Index Reference Paper, catalogue no. 62-553-X. Additional information can also be obtained from the Consumer Prices Division at 1-866-230-2248 (toll-free) or by email at cpd-info-dpc@statcan.gc.ca."
+3,"Effective May 2018 reference month for the Consumer Price Index, sample composition changes due to the introduction of new data sources has resulted in changes in the average retail prices. In particular, brand and quality changes have affected average prices. Users are advised to exercise caution when comparing the May 2018 data to earlier time periods. See the general note on average prices stating that these prices should not be used as an appropriate measure of pure prices change through time."
+5,"Beginning May 4, 2022, national average prices will be available in the Monthly Average Retail Prices for Selected Products <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810024501">(18-10-0245-01)</a> table. At that time this table will also include an expanded list of products, based on enhanced data sources and methods. These new data series will begin with March 2022 data. This table uses scanner data (also known as transaction data) collected from Canadian retailers. Transaction data provide a comprehensive electronic record of the transactions made through a retailer’s point-of-sale system, and contain relevant pricing information, such as product descriptions and quantities sold. The Monthly Average Retail Prices for Food and Other Selected Products <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000201">(18-10-0002-01)</a> table will no longer be published after March 16, 2022. Note that these tables are not directly comparable due to <a href="https://www150.statcan.gc.ca/n1/pub/62f0014m/62f0014m2020008-eng.htm">methodological differences</a>, and do not contain all the same products and may contain different product definitions."
+4,"Average prices are derived for products as defined by a specific size or quantity measure (for example, 4 litres, 1 dozen) and exclude taxes. In most cases, a standard size or quantity can be easily identified as the measure of best fit for a particular product (for example, 1 dozen eggs). For certain products which are available to consumers in a wide variety of package sizes, prices for products within a set range of package sizes are standardized before the average price calculation. Standardization is an accepted practice in the field of price measurement. It allows for the measurement of a broader group of product sizes which increases the robustness of a given sampled product category, and improves the comparability of products across time and geographies. For example, prices for blocks of cheese ranging in size from 400 g to 800 g are adjusted to represent a 500 g block of cheese, and are represented as such in the average prices table."
+
+"Correction ID","Correction Date","Correction Note"

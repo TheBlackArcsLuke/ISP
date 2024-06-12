@@ -1,0 +1,103 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Survey of household spending (SHS), household spending, summary-level categories, by province, territory and selected metropolitan areas",11100197,203-0001,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110019701",1;2;8;9;11,"ARCHIVED -  a cube publicly available but no longer being updated",Annual,1997-01-01,2009-01-01,3,,
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,"Household expenditure summary-level categories",,,
+3,Statistics,9,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,,1,,,3,,,
+1,"Newfoundland and Labrador",,2,1,,,,,
+1,"Prince Edward Island",,3,1,,,,,
+1,"Nova Scotia",,4,1,,,,,
+1,"New Brunswick",,5,1,,,,,
+1,Quebec,,6,1,,,,,
+1,Ontario,,7,1,,,,,
+1,Manitoba,,8,1,,,,,
+1,Saskatchewan,,9,1,,,,,
+1,Alberta,,10,1,,,,,
+1,"British Columbia",,11,1,,,,,
+1,Yukon,,12,1,,4;7,,,
+1,"Northwest Territories",,13,1,,5;6;7,,,
+1,Nunavut,,14,1,,6;7,,,
+1,"St.John's, Newfoundland and Labrador",[10001],15,,,,,,
+1,"Charlottetown and Summerside, Prince Edward Island","[11105, 11110]",16,,,,,,
+1,"Halifax, Nova Scotia",[12205],17,,,,,,
+1,"Saint John, New Brunswick",[13310],18,,,,,,
+1,"Québec, Quebec",[24421],19,,,10,,,
+1,"Montréal, Quebec",[24462],20,,,,,,
+1,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",[35505],21,,,10,,,
+1,"Toronto, Ontario",[35535],22,,,,,,
+1,"Winnipeg, Manitoba",[46602],23,,,,,,
+1,"Regina, Saskatchewan",[47705],24,,,,,,
+1,"Saskatoon, Saskatchewan",[47725],25,,,,,,
+1,"Calgary, Alberta",[48825],26,,,,,,
+1,"Edmonton, Alberta",[48835],27,,,,,,
+1,"Vancouver, British Columbia",[59933],28,,,,,,
+1,"Victoria, British Columbia",[59935],29,,,10,,,
+1,"Whitehorse, Yukon",[60990],30,,,7,,,
+1,"Yellowknife, Northwest Territories",[61995],31,,,7,,,
+2,"Total expenditure",,1,,,,,,
+2,"Total current consumption",,2,1,,,,,
+2,Food,,3,2,,,,,
+2,Shelter,,4,2,,,,,
+2,"Household operation",,5,2,,,,,
+2,"Household furnishings and equipment",,6,2,,,,,
+2,Clothing,,7,2,,,,,
+2,Transportation,,8,2,,,,,
+2,"Health care",,9,2,,,,,
+2,"Personal care",,10,2,,,,,
+2,Recreation,,11,2,,,,,
+2,"Reading materials and other printed matter",,12,2,,,,,
+2,Education,,13,2,,,,,
+2,"Tobacco products and alcoholic beverages",,14,2,,,,,
+2,"Games of chance (net)",,15,2,,,,,
+2,"Miscellaneous expenditures",,16,2,,,,,
+2,"Personal taxes",,17,1,,,,,
+2,"Personal insurance payments and pension contributions",,18,1,,,,,
+2,"Gifts of money and contributions",,19,1,,,,,
+3,"Average expenditure",,1,,,,,,
+3,"Percent of households reporting",,2,,,,,,
+3,"Estimated number of households reporting",,4,,,,,,
+3,"Median expenditure per household reporting",,5,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3508,"Survey of Household Spending"
+
+"Subject Code","Subject Name"
+11,"Income, pensions, spending and wealth"
+
+"Note ID",Note
+1,"For more information about survey methodology, data quality, variable definitions and data products, see the Survey of household spending user guide (catalogue number 62F0026MIE) available free on the Statistics Canada website: http://www.statcan.ca/english/IPS/Data/62F0026MIE.htm, Household expenditures research papers series. Further information may also be obtained from Client Services (1-888-297-7355 or 613 951-7355; income@statcan.gc.ca ), Income Statistics Division."
+2,"Data for 1997 and 1998 reflect the revised estimation method implemented for the first time with the 1999 data. For this reason, 1997 and 1998 data presented in CANSIM do not match the originally-released data."
+3,"In 1998, 1999, and every second year thereafter starting with 2001, statistics for Canada include the territories. For the other years, Canada-level statistics include the 10 provinces only."
+4,"In 1997, survey coverage in the Yukon corresponded to 78% of the population."
+5,"In 1997, survey coverage in the Northwest Territories corresponded to 70% of the population."
+6,"The 1997 estimates for the Northwest Territories include Nunavut."
+7,"Data for the territories were collected in 1997, 1998, 1999, and every second year starting with 2001."
+8,"Data from the 1997, 1998, 1999, 2000, 2001, 2002, and 2003 Survey of household spending have been re-weighted using 2001 Census weights, using the weighting methodology described in the Survey of household spending user guide, the section on ""Weighting."" Comparisons between years should generally be made with re-weighted data, although the differences between survey estimates from the old and new methodologies appear to be minimal at a summary level. Certain populations or variables, however, may be more strongly affected."
+9,"Beginning with 2006, the distinction between full-year and part-year members and households has been removed. Spending data are collected for the reference year for all members of the household at the time of the interview. Since the data for the 1997-2005 were based on full- year members only, to maintain the comparability with prior years, the data for 1997-2005 have been revised to include both full-year and part-year households."
+10,"Due to unreliability of the data which was the result of low sample sizes, the data for Québec, Ottawa and Victoria for 2008 and 2009 were suppressed."
+11,"Due to changes in the methodology of this survey, this table has been archived and replaced by CANSIM table 203-0021."
+
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+
+
