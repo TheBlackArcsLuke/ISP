@@ -1,5 +1,5 @@
-This Independent Study Project will use Canadian food retail price data, Survey of household spending food expenditure data, household spending by household type, and related pricing data to illustrate how Canadian grocery spending has changed over time. It will extend these trends to the future in attempt to predict where prices are heading, and visualize how household spending trends will change as a result. 
-As a potential stretch goal, this project may incorporate an analysis of how changes to Canadian crop yields and food production have occurred in an attempt to correlate the datasets. 
+This Independent Study Project will use Canadian food retail price data, Survey of household spending food expenditure data, household spending by household type, and related pricing data to generate sets of charts that illustrate how Canadian grocery spending has changed over time. It will adjust for inflation, and extend these trends to the future in attempt to predict where expenditures are heading.
+
 
 Datasets used:
 
@@ -19,7 +19,12 @@ Description: This Statistics Canada dataset contains Detailed food spending, for
 Description: This Statistics Canada dataset contains Household spending by household type data for Canada from 2010-2021 on an annual basis. This project will ignore non-grocery data within the set. Key columns: REF_DATE, Household type, Household expenditures summary-level categories, UOM, VALUE
 
 
-./isp_data/data/Survey of household spending (SHS), household spending, summary-level categories, by province, territory and selected metropolitan areas - Dataset 1997 - 2009/11100197.csv
+./isp_data/data/Consumer Price Index by product group, monthly, percentage change, not seasonally adjusted, Canada, provinces, Whitehorse, Yellowknife and Iqaluit/18100004.csv
 
-Description: Survey of household spending (SHS), household spending, summary-level categories, by province, territory and selected metropolitan areas - Dataset 1997 - 2009. This project will ignore non-grocery data within the set. Key columns: REF_DATE, GEO, Household expenditure summary-level categories, Statistics, UOM, VALUE, DECIMALS
+Description: Monthly Consumer Price Index by product group data from Statistics Canada separated by region. This project creates a filtered version of this dataset that includes entries only for Food product categories, and uses it to consider inflation in historical price change analyses. Key columns: REF_DATE, GEO, Products and product groups, VALUE
+
+
+Other information:
+
+food_filter.py is a short script to filter the large Canadian Consumer Price Index dataset to just food entries for the purpose of adjusting food prices for inflation in our overall analysis. It is used to create a filtered dataset placed in the "Consumer Price Index by product group..." data directory.
 
