@@ -21,7 +21,7 @@ Description: This Statistics Canada dataset contains Household spending by house
 
 ./isp_data/data/Consumer Price Index by product group, monthly, percentage change, not seasonally adjusted, Canada, provinces, Whitehorse, Yellowknife and Iqaluit/18100004.csv
 
-Description: Monthly Consumer Price Index by product group data from Statistics Canada separated by region. This project creates a filtered version of this dataset that includes entries only for Food product categories, and uses it to consider inflation in historical price change analyses. Key columns: REF_DATE, GEO, Products and product groups, VALUE
+Description: Monthly Consumer Price Index by product group data from Statistics Canada separated by region. This project contains a script to filter a version of this dataset to include entries only for Food product categories, and uses it to consider inflation in historical price change analyses. The original full dataset filtered by this script has been removed due to filesize limitations so we will work with the filtered version. Key columns: REF_DATE, GEO, Products and product groups, VALUE
 
 
 Other information:
